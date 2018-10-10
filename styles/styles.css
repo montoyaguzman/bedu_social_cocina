@@ -1,0 +1,35 @@
+body {
+margin: 0%;
+}
+
+/* header */
+.info-welcome {
+  width: 100%;
+  height: 750px;
+  background-image: url(../img/ingredients.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+
+}
+
+/* Info*/
+
+.info{
+  padding-top: 10px;
+  text-align: center;
+  background-color: #fff3e0;
+}
+
+i{
+  padding: 10px;
+  color: #FC4A1A;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: solid 3px white;
+  overflow:hidden;
+}
