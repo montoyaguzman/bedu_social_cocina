@@ -1,65 +1,52 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Dashboard</title>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-    crossorigin="anonymous">
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
-  <!-- Styles for app -->
-  <link rel="stylesheet" type="text/css" href="../styles/styles.css">
-  <!-- Styles for component -->
-  <link rel="stylesheet" type="text/css" href="./dashboard.css">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="./dashboard.css" />
+  <script src="https://use.fontawesome.com/0f128d2ca3.js"></script>
 </head>
-
 <body>
-
-  <div id="menuLateral">
-    <div class="contenedor">
-      <div id="foto"></div>
-      <div id="menu">
-        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
-            aria-controls="v-pills-home" aria-selected="true">Home</a>
-          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
-            aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
-            aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
-            aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+  
+  <div class="containerMain">
+    <div class="rigthMenu">
+      <div id="photo"></div>
+      <div id="menuContent">
+        <ul>
+          <a><li>Home</li></a>
+          <a><li>Recetas</li></a>
+          <a><li>Videorecetas</li></a>
+          <a><li>Mis recetas</li></a>
+          <a><li>Crear receta</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="containerMainB">
+      <div class="header">
+        <div id="centerHeader">
+          <div class="searchItem">
+            <input type="search" id="mySearch">
+            <button>Buscar</button>
+          </div>
         </div>
-        <div class="tab-content" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Tab
-            1</div>
-          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Tab 2</div>
-          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Tab 3</div>
-          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Tab 4</div>
+        <div id="socialIcons">
+          <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i>
         </div>
+      </div>
+      <div class="workspace">
+          <div class="workspace2">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>  
+        <div class="grid-item">4</div>
+      </div>
       </div>
     </div>
   </div>
 
-  <!-- <button type="button" class="btn btn-success">Primary</button> -->
-
-
-
-  <div>
-
-  </div>
-
-
-
 </body>
-
 </html>
