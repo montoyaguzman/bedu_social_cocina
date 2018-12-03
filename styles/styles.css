@@ -6,14 +6,14 @@ margin: 0%;
 .info-welcome {
   width: 100%;
   height: 750px;
-  background-image: url(../img/ingredients.jpg);
+  background-image: url(../img/mesa.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.logo {
-
+.logo img{
+  width:100%;
 }
 
 /* Info*/
@@ -32,4 +32,15 @@ i{
   border-radius: 50%;
   border: solid 3px white;
   overflow:hidden;
+}
+
+/* top */
+.top{
+  padding: 50px;
+  background-color: #FC4A1A;
+}
+/* footer */
+.footer-del {
+  background-color: #fff3e0;
+  margin: 0%;
 }
