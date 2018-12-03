@@ -17,6 +17,7 @@ html, body {
 
 .rigthMenu {
   width: 30%;
+  text-align: center;
   border: solid 2px yellow;
 }
 
@@ -34,12 +35,20 @@ html, body {
   border: solid 2px yellow;
 }
 
-#searchBar {
-  width: 85%;
+#centerHeader {
+  text-align: center;
+  width: 75%;
+}
+
+#centerIco {
+  text-align: center;
 }
 
 #socialIcons {
-
+  width: 25%;
+  /*text-align: center;*/
+  padding-top: 4px;
+  padding-right: 0px;
 }
 
 #searchBar {
@@ -48,7 +57,14 @@ html, body {
 
 .workspace {
   height: 100%;
-  border: solid 2px yellow;
+  /*border: solid 2px yellow;*/
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .fa-facebook-official {
@@ -68,7 +84,30 @@ html, body {
   height: 110px;
   border-radius: 50%;
   border: 1px solid blue;
-  background-image: url("./assests/img/user.png");
-  background-attachment: fixed;
+  background-size: 110px 110px;
+  background-image: url("./assests/img/photo.png");
+  display: inline-block;
+  margin-top: 110px;
 }
 
+#menuContent {
+  text-align: center;
+}
+
+#menuContent ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style:none;
+}
+
+.searchItem {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.grid-item {
+  border: solid 1px black;
+}
