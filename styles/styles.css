@@ -6,4 +6,46 @@ body {
 .centerText {
   text-align: center;
 }
-/*# sourceMappingURL=styles.css.map */
+
+/* header */
+.info-welcome {
+  width: 100%;
+  height: 750px;
+  background-image: url(../img/mesa.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  width:100%;
+}
+
+/* Info*/
+
+.info{
+  padding-top: 10px;
+  text-align: center;
+  background-color: #fff3e0;
+}
+
+i{
+  padding: 10px;
+  color: #FC4A1A;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: solid 3px white;
+  overflow:hidden;
+}
+
+/* top */
+.top{
+  padding: 50px;
+  background-color: #FC4A1A;
+}
+/* footer */
+.footer-del {
+  background-color: #fff3e0;
+  margin: 0%;
+}
