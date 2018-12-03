@@ -1,0 +1,74 @@
+.blue {
+  color: blue;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+	padding: 0;
+}
+
+.containerMain {
+  display: flex;
+  flex-direction: row;
+  border: solid 2px red;
+  height: 100%;
+}
+
+.rigthMenu {
+  width: 30%;
+  border: solid 2px yellow;
+}
+
+.containerMainB {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border: solid 2px red;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  border: solid 2px yellow;
+}
+
+#searchBar {
+  width: 85%;
+}
+
+#socialIcons {
+
+}
+
+#searchBar {
+
+}
+
+.workspace {
+  height: 100%;
+  border: solid 2px yellow;
+}
+
+.fa-facebook-official {
+  color: #3b5998;
+}
+
+.fa-twitter-square {
+  color: #00acee;
+}
+
+.fa-youtube-square {
+  color: #c4302b;
+}
+
+#photo {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  background-image: url("./assests/img/user.png");
+  background-attachment: fixed;
+}
+
