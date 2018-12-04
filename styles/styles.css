@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  border: 0;
+}
+
+.centerText {
+  text-align: center;
+}
+
+/* header */
+.info-welcome {
+  width: 100%;
+  height: 750px;
+  background-image: url(../assests/img/mesa.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.barnav {
+  background-color:  #FC4A1A;
+}
+.barnav a{
+  color: #fff3e0;
+}
+.logo img{
+  width:100%;
+}
+
+/* Info*/
+
+.info{
+  padding-top: 10px;
+  text-align: center;
+  background-color: #fff3e0;
+}
+
+i{
+  padding: 10px;
+  color: #FC4A1A;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: solid 3px white;
+  overflow:hidden;
+}
+
+/* top */
+.top{
+  padding: 50px;
+  background: -webkit-linear-gradient(
+    to right,
+    #f7b733,
+    #fc4a1a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f7b733,
+    #fc4a1a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* footer */
+.footer-del {
+  background-color: #fff3e0;
+  margin: 0%;
+}
