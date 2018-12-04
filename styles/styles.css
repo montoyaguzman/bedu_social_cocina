@@ -13,10 +13,17 @@ body {
   height: 750px;
   background-image: url(../assests/img/mesa.jpg);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.barnav {
+  background-color:  #FC4A1A;
+}
+.barnav a{
+  color: #fff3e0;
+}
 .logo img{
   width:100%;
 }
